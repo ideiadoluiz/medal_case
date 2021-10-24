@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "mizuno_singapore_ekiden.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "mizuno_singapore_ekiden-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "mizuno_singapore_ekiden-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -9,11 +9,11 @@ import UIKit
 
 class MedalViewCell: UICollectionViewCell {
 
-    @IBOutlet weak var medalIcon: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var subtitleLabel: UILabel!
-    @IBOutlet weak var transparentView: UIView!
-    @IBOutlet weak var titleHeightConstraint: NSLayoutConstraint!
+    @IBOutlet private weak var medalIcon: UIImageView!
+    @IBOutlet private weak var titleLabel: UILabel!
+    @IBOutlet private weak var subtitleLabel: UILabel!
+    @IBOutlet private weak var transparentView: UIView!
+    @IBOutlet private weak var titleHeightConstraint: NSLayoutConstraint!
     
     override func awakeFromNib() {
         super.awakeFromNib()

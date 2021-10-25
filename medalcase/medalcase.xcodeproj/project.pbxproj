@@ -15,7 +15,6 @@
 		AB3CF0FD2724D31800F689E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3CF0FB2724D31800F689E8 /* LaunchScreen.storyboard */; };
 		AB3CF1082724D31800F689E8 /* medalcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF1072724D31800F689E8 /* medalcaseTests.swift */; };
 		AB3CF1122724D31900F689E8 /* medalcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF1112724D31900F689E8 /* medalcaseUITests.swift */; };
-		AB3CF1142724D31900F689E8 /* medalcaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF1132724D31900F689E8 /* medalcaseUITestsLaunchTests.swift */; };
 		AB3CF1292724DC3100F689E8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3CF1282724DC3100F689E8 /* Colors.xcassets */; };
 		AB3CF12C2724E1BE00F689E8 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF12B2724E1BE00F689E8 /* ColorTheme.swift */; };
 		AB3CF1302724E68800F689E8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF12F2724E68800F689E8 /* Error.swift */; };
@@ -62,7 +61,6 @@
 		AB3CF1072724D31800F689E8 /* medalcaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medalcaseTests.swift; sourceTree = "<group>"; };
 		AB3CF10D2724D31900F689E8 /* medalcaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = medalcaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3CF1112724D31900F689E8 /* medalcaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medalcaseUITests.swift; sourceTree = "<group>"; };
-		AB3CF1132724D31900F689E8 /* medalcaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medalcaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AB3CF1282724DC3100F689E8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		AB3CF12B2724E1BE00F689E8 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 		AB3CF12F2724E68800F689E8 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
@@ -153,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				AB3CF1112724D31900F689E8 /* medalcaseUITests.swift */,
-				AB3CF1132724D31900F689E8 /* medalcaseUITestsLaunchTests.swift */,
 			);
 			path = medalcaseUITests;
 			sourceTree = "<group>";
@@ -396,7 +393,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3CF1142724D31900F689E8 /* medalcaseUITestsLaunchTests.swift in Sources */,
 				AB3CF1122724D31900F689E8 /* medalcaseUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

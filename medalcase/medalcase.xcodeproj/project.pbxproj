@@ -18,7 +18,6 @@
 		AB3CF1142724D31900F689E8 /* medalcaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF1132724D31900F689E8 /* medalcaseUITestsLaunchTests.swift */; };
 		AB3CF1292724DC3100F689E8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3CF1282724DC3100F689E8 /* Colors.xcassets */; };
 		AB3CF12C2724E1BE00F689E8 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF12B2724E1BE00F689E8 /* ColorTheme.swift */; };
-		AB3CF12E2724E50C00F689E8 /* Medal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF12D2724E50C00F689E8 /* Medal.swift */; };
 		AB3CF1302724E68800F689E8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF12F2724E68800F689E8 /* Error.swift */; };
 		AB3CF1322725F73700F689E8 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF1312725F73700F689E8 /* Label.swift */; };
 		AB3CF1342726056700F689E8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF1332726056700F689E8 /* User.swift */; };
@@ -28,6 +27,9 @@
 		AB3CF14227261FCE00F689E8 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF14127261FCE00F689E8 /* Appearance.swift */; };
 		AB3CF14E272646DD00F689E8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF14C272646DD00F689E8 /* HeaderView.swift */; };
 		AB3CF14F272646DD00F689E8 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB3CF14D272646DD00F689E8 /* HeaderView.xib */; };
+		AB3CF152272651CB00F689E8 /* MedalViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF150272651CB00F689E8 /* MedalViewCell.swift */; };
+		AB3CF153272651CB00F689E8 /* MedalViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB3CF151272651CB00F689E8 /* MedalViewCell.xib */; };
+		AB3CF15527265B4100F689E8 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CF15427265B4100F689E8 /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +65,6 @@
 		AB3CF1132724D31900F689E8 /* medalcaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medalcaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AB3CF1282724DC3100F689E8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		AB3CF12B2724E1BE00F689E8 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
-		AB3CF12D2724E50C00F689E8 /* Medal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medal.swift; sourceTree = "<group>"; };
 		AB3CF12F2724E68800F689E8 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		AB3CF1312725F73700F689E8 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		AB3CF1332726056700F689E8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -73,6 +74,9 @@
 		AB3CF14127261FCE00F689E8 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 		AB3CF14C272646DD00F689E8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		AB3CF14D272646DD00F689E8 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		AB3CF150272651CB00F689E8 /* MedalViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedalViewCell.swift; sourceTree = "<group>"; };
+		AB3CF151272651CB00F689E8 /* MedalViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedalViewCell.xib; sourceTree = "<group>"; };
+		AB3CF15427265B4100F689E8 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				AB3CF1492726445500F689E8 /* Xib */,
-				AB3CF12D2724E50C00F689E8 /* Medal.swift */,
 				AB3CF1312725F73700F689E8 /* Label.swift */,
 			);
 			path = Views;
@@ -214,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				AB3CF13F27260FBF00F689E8 /* Localizable.swift */,
+				AB3CF15427265B4100F689E8 /* View.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -223,6 +227,8 @@
 			children = (
 				AB3CF14C272646DD00F689E8 /* HeaderView.swift */,
 				AB3CF14D272646DD00F689E8 /* HeaderView.xib */,
+				AB3CF150272651CB00F689E8 /* MedalViewCell.swift */,
+				AB3CF151272651CB00F689E8 /* MedalViewCell.xib */,
 			);
 			path = Xib;
 			sourceTree = "<group>";
@@ -336,6 +342,7 @@
 				AB3CF0FA2724D31800F689E8 /* Assets.xcassets in Resources */,
 				AB3CF14F272646DD00F689E8 /* HeaderView.xib in Resources */,
 				AB3CF0F82724D31500F689E8 /* Main.storyboard in Resources */,
+				AB3CF153272651CB00F689E8 /* MedalViewCell.xib in Resources */,
 				AB3CF13927260CD500F689E8 /* Default.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,11 +368,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3CF12E2724E50C00F689E8 /* Medal.swift in Sources */,
 				AB3CF0F52724D31500F689E8 /* AchievementsViewController.swift in Sources */,
 				AB3CF14027260FBF00F689E8 /* Localizable.swift in Sources */,
 				AB3CF1322725F73700F689E8 /* Label.swift in Sources */,
 				AB3CF12C2724E1BE00F689E8 /* ColorTheme.swift in Sources */,
+				AB3CF152272651CB00F689E8 /* MedalViewCell.swift in Sources */,
 				AB3CF1342726056700F689E8 /* User.swift in Sources */,
 				AB3CF0F12724D31500F689E8 /* AppDelegate.swift in Sources */,
 				AB3CF14E272646DD00F689E8 /* HeaderView.swift in Sources */,
@@ -373,6 +380,7 @@
 				AB3CF1302724E68800F689E8 /* Error.swift in Sources */,
 				AB3CF0F32724D31500F689E8 /* SceneDelegate.swift in Sources */,
 				AB3CF136272606C900F689E8 /* Achievement.swift in Sources */,
+				AB3CF15527265B4100F689E8 /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

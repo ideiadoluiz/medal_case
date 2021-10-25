@@ -36,6 +36,6 @@ internal struct ColorTheme {
     }
 
     internal static var halfTransparent: UIColor {
-        return UIColor.white.withAlphaComponent(0.5);
+        return UIColor.white.withAlphaComponent(0.75);
     }
 }

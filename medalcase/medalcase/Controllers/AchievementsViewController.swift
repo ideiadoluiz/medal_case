@@ -54,8 +54,13 @@ extension AchievementsViewController : UICollectionViewDataSource {
 
 extension AchievementsViewController : UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView .dequeueReusableCell(withReuseIdentifier: "medalIdentifier", for: indexPath)
-        cell.backgroundView?.backgroundColor = .blue
+        let cell = collectionView .dequeueReusableCell(withReuseIdentifier: "medalIdentifier", for: indexPath) as! MedalViewCell
+        let group = filteredGroup(section: indexPath.section)
+        let achievement = group[indexPath.row]
+        cell.setup(title: achievement.name,
+                   subtitle: achievement.details,
+                   iconName: achievement.iconName,
+                   achieved: achievement.achieved)
         return cell
     }
     

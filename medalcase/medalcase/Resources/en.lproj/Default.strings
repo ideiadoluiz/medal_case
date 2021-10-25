@@ -1,0 +1,28 @@
+/* 
+  Default.strings
+  medalcase
+
+  Created by Luiz Peres on 2021-10-24.
+  
+*/
+
+"not_yet" = "Not yet";
+
+"longest_run" = "Longest Run";
+"highest_elevation" = "Highest Elevation";
+"fastest_5k" = "Fastest 5k";
+"fastest_10k" = "10k";
+"fastest_half_marathon" = "Half Marathon";
+"fastest_marathon" = "Marathon";
+
+"virtual_5k_race" = "Virtual 5k Race";
+"virtual_10k_race" = "Virtual 10k Race";
+"mizuno_singapore_ekiden" = "Mizuno Singapore Ekiden 2015";
+"hakone_ekiden" = "Hakone Ekiden";
+"tokyo_kakone_ekiden" = "Tokyo-Hakone Ekiden";
+"virtual_half_marathon_race" = "Virtual Half Marathon Race";
+"virtual_marathon_race" = "Virtual Marathon";
+
+"of" = "of";
+"virtual_races" = "Virtual Races";
+"personal_records" = "Personal Records";

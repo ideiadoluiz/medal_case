@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Error {
+internal struct Error {
 
     @available(*, unavailable) private init() {}
     

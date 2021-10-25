@@ -7,7 +7,7 @@
 
 import UIKit
 
-public struct Label {
+internal struct Label {
 
     @available(*, unavailable) private init() {}
     
@@ -25,7 +25,7 @@ public struct Label {
     
     internal static func makeLabel(size: CGFloat, textColor: UIColor) -> UILabel {
         let label = UILabel()
-        label.font = UIFont(name: label.font.fontName, size: size)
+        label.font = UIFont(name: "Arial", size: size)
         label.textColor = textColor;
         return label;
     }

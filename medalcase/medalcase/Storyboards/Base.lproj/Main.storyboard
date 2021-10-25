@@ -30,6 +30,7 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Achievements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xw0-cP-IAv">
                                                     <rect key="frame" x="40" y="11" width="334" height="16.5"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="achievementLabel"/>
                                                     <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
                                                     <color key="textColor" name="navigation_bar_blue"/>
                                                     <nil key="highlightedColor"/>
@@ -42,6 +43,7 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="Xw0-cP-IAv" secondAttribute="trailing" constant="20" id="cYM-Xn-SOT"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration" identifier="achievementsCell"/>
                                         <connections>
                                             <segue destination="JYd-ek-sXd" kind="show" id="EQ3-aj-ymC"/>
                                         </connections>
